@@ -1,0 +1,14 @@
+- directory hierarchy (root, home directories)
+
+- commands:
+- pwd
+- cd / cd <dir> / cd .. / cd/
+- ls
+- mkdir
+- rmdir
+- touch
+- nano
+- cat 
+- head / tail
+- rm
+- mv / cp
