@@ -1,0 +1,22 @@
+# Pull the "hello-world" image:
+$ docker pull hello-world
+
+# List images:
+$ docker images
+
+# Build and run the "hello-world" container
+$ docker run hello-world
+
+# List running containers only:
+$ docker ps
+
+# List contianers running and stopped:
+$ docker ps -a
+
+
+## Ubuntu image
+# Pull ubuntu image
+$ docker pull ubuntu
+
+# Run the container and go inside it
+$ docker run -it ubuntu bash

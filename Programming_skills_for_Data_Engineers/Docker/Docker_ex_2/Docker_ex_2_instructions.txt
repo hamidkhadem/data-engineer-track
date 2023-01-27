@@ -1,0 +1,13 @@
+Change directory inside project:
+$ cd <your-path-to-zaka-DE-directory>/Programming_skills_for_Data_Engineers/Docker/Docker_ex_2
+
+Build the docker image:
+$ docker build -t zaka-app .
+
+Check if the image was built successfully by listing images:
+$ docker images
+
+Build and Run the docker contianer from the built image:
+$ docker run --name zaka-app-container -p 8000:8000 -t -i zaka-app
+
+Access the fastapi application with the url "http://localhost:8000/docs" in your browser
