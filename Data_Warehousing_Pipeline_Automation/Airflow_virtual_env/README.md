@@ -70,11 +70,11 @@ $ airflow scheduler
 ### To Rerun Airflow Again After the First Setup
 * Terminal_1:
 ```
-$ export AIRFLOW_HOME=.
+$ export AIRFLOW_HOME=/home/<your-full-path>/zaka_de_public/Data_Warehousing_Pipeline_Automation/Airflow_virtual_env
 $ airflow webserver -p 8080
 ```
 * Terminal_2:
 ```
-$ export AIRFLOW_HOME=.
+$ export AIRFLOW_HOME=/home/<your-full-path>/zaka_de_public/Data_Warehousing_Pipeline_Automation/Airflow_virtual_env
 $ airflow scheduler
 ```
