@@ -6,3 +6,4 @@
 /webserver_config.py
 /airflow.db-journal
 /logs
+/dags/__pycache__/
