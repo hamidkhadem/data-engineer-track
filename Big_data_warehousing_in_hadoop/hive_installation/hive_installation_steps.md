@@ -137,6 +137,15 @@ sudo wget https://jdbc.postgresql.org/download/postgresql-42.2.19.jar \
 spark.sql('SHOW databases').show()
 ```
 
+* To change Spark log-level, access with `/opt/spark/conf` directory, remove the `.template` from the file `log4j.properties.template` and change:
+```
+# This line:
+log4j.rootCategory=INFO, console
+
+# To This line:
+log4j.rootCategory=ERROR, console
+```
+
 ***
 
 ## **Launch and Validate Hive:**

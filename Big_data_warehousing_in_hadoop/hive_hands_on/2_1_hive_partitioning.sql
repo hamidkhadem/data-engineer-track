@@ -26,7 +26,7 @@ SHOW PARTITIONS company.employees_part;
 ALTER TABLE company.employees_part DROP IF EXISTS PARTITION (gender='M');
 
 -- Bucketing
-CREATE TABLE company.employees_part (
+CREATE TABLE company.employees_bucket (
  id int,
  first_name string,
  last_name string,
